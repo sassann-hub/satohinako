@@ -1,0 +1,22 @@
+# --- Python が自動で作るもの ---
+__pycache__/
+*.pyc
+
+# --- 仮想環境(各自のPCで作るもの) ---
+.venv/
+venv/
+
+# --- 秘密情報(絶対に上げない) ---
+.env
+.streamlit/secrets.toml
+
+# --- データベース ---
+# 作業用のDBは上げない
+*.db
+# 例外:公開用に事前にクロールしたDBだけは上げる(更新はDB担当のさっさんだけ)
+!data/oyako.db
+
+# --- OS が作るもの ---
+.DS_Store
+Thumbs.db
+desktop.ini
