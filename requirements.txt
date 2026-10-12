@@ -1,0 +1,6 @@
+# Streamlit Community Cloud がアプリを動かすときに入れるライブラリ
+# 画面(app.py)に必要
+streamlit>=1.37
+# クローラー(crawler.py)に必要。公開先では使わないが、手元で動かす人のために残す
+requests
+beautifulsoup4
